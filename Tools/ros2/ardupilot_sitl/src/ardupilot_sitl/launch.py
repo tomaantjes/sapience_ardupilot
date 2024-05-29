@@ -308,6 +308,7 @@ class MAVProxyLaunch:
             f"--master {master} ",
             f"--sitl {sitl} ",
             "--non-interactive ",
+            "--streamrate=20"
         ]
 
         if console == TRUE_STRING:
